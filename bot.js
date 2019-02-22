@@ -161,6 +161,6 @@ client.on('message', async message => {
         return message.channel.send(embed4);
     }
 });
-client.login('NTI0MjgyNjc2NDQ2ODg3OTQ3.D0dDgg.Fa0SsA9r6MDfk69_jLMmIQI9Ff8')
+client.login('NTQ4NTYwNDAwNzY1OTQzODA4.D1HMqw.jdycPymMuH6gcTaJFwftCkWY_I8')
 
 
