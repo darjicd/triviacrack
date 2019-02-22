@@ -133,7 +133,7 @@ client.on('message', async message => {
             const complete = new Discord.RichEmbed()
                 .setColor('RANDOM')
                 .setAuthor(`Hey, ${supportUser.tag}`, supportUser.avatarURL)
-                .setFooter('Ticket Closed -- Team Trivia Plus')
+                .setFooter('Ticket Closed -- Team TRIVIA CRACK')
                 .setDescription('*Your ticket has been marked as complete. If you wish to reopen it, or create a new one, please send a message to the bot.*')
             supportUser.send(complete);
             message.channel.delete();
@@ -149,7 +149,7 @@ client.on('message', async message => {
         const embed4 = new Discord.RichEmbed()
             .setColor('RANDOM')
             .setAuthor(message.author.tag, message.author.avatarURL)
-            .setFooter(`Message Received - Team Arche`)
+            .setFooter(`Message Received - TRIVIA CRACK`)
             .setDescription(message.content)
         client.users.get(support.targetID)
             .send(embed4);
